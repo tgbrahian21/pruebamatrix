@@ -28,7 +28,7 @@ npm install
 
 ### 3. Configurar entorno
 
-properties
+```properties
 DB_HOST=localhost
 DB_PORT=5432
 DB_USERNAME=user
@@ -40,7 +40,7 @@ MAIL_PORT=2525
 MAIL_USER=your_mailtrap_user
 MAIL_PASSWORD=your_mailtrap_password
 ADMIN_EMAIL=admin@example.com
-
+```
 
 ### 4. Ejecutar en local
 bash
