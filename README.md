@@ -17,8 +17,8 @@ API REST para la gestión de formularios de contacto, desarrollada con NestJS y 
 ### 1. Clonar repositorio
 
 bash
-git clone https://github.com/tu-usuario/contact-form-api.git
-cd contact-form-api
+git clone https://github.com/tgbrahian21/pruebamatrix.git
+cd pruebamatrix
 
 
 
@@ -60,7 +60,7 @@ Recibe datos del formulario y envia correos
 
 #### Cuerpo esperado:
 
-json
+```json
 {
   "fullName": "Juan Pérez",
   "email": "juan@example.com",
@@ -68,25 +68,24 @@ json
   "phone": "+573001234567", // opcional
   "message": "Estoy interesado en sus servicios."
 }
-
+```
 
 #### Respuesta exitosa
-json
+```json
 {
   "message": "Formulario recibido correctamente"
 }
-
-
+```
 ### 2. GET /api/metrics/daily-submissions
 
 Devuelve el conteo de envios del día.
 
 #### Respuesta exitosa:
-json
+```json
 {
   "conteo": 5
 }
-
+```
 
 ## 🧠 Preguntas de Razonamiento
 ### 1. Arquitectura y diseño
